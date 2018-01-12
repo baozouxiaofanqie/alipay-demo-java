@@ -1,0 +1,72 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.alipay.config.AlipayConfig",
+      "name": "alipay",
+      "type": "com.alipay.config.AlipayConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.alipay.config.AlipayConfig",
+      "name": "alipay.alipay-public-key",
+      "description": "支付宝公钥",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.alipay.config.AlipayConfig",
+      "name": "alipay.app-id",
+      "description": "应用ID,您的APPID，收款账号既是您的APPID对应支付宝账号",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.alipay.config.AlipayConfig",
+      "name": "alipay.app-private-key",
+      "description": "商户私钥，您的PKCS8格式RSA2私钥",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.alipay.config.AlipayConfig",
+      "name": "alipay.charset",
+      "description": "字符编码格式",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.alipay.config.AlipayConfig",
+      "name": "alipay.format",
+      "description": "仅支持JSON",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.alipay.config.AlipayConfig",
+      "name": "alipay.notify-url",
+      "description": "服务器异步通知页面路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.alipay.config.AlipayConfig",
+      "name": "alipay.product-code",
+      "description": "固定格式 必填",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.alipay.config.AlipayConfig",
+      "name": "alipay.return-url",
+      "description": "页面跳转同步通知页面路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.alipay.config.AlipayConfig",
+      "name": "alipay.sign-type",
+      "description": "签名方式 支付宝推荐用RSA2 更安全",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.alipay.config.AlipayConfig",
+      "name": "alipay.url",
+      "description": "支付宝网关",
+      "type": "java.lang.String"
+    }
+  ]
+}
